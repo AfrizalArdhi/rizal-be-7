@@ -20,7 +20,7 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-  origin: 'http://localhost:5500', // ganti ke URL frontend kamu di GCP
+  origin: 'https://fe-static-dot-b-05-450507.uc.r.appspot.com', // ganti ke URL frontend kamu di GCP
   credentials: true
 }));
 app.use(express.json());
